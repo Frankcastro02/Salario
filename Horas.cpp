@@ -27,6 +27,7 @@ int main ()
             cout << "Salario libre de impuestos";
             cout << Nombre << " esta ganando " << "$" << Salario;
         }    
+    //g++ If else numeros.cpp-0 primp
         else if (Salario <= 2200)
             {
                 Impuesto = Salario * 0.20;
